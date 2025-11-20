@@ -41,6 +41,19 @@ body {
 }
 
 /* Header */
+.parody-notice {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
 .main-title {
     font-size: 72px;
     color: #FFFFFF;
@@ -79,6 +92,13 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .photo-placeholder {
@@ -101,6 +121,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+.small-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .photo-placeholder-small {
@@ -200,6 +227,8 @@ body {
     transition: transform 0.1s;
     text-align: center;
     line-height: 1.3;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .donate-button:hover {
